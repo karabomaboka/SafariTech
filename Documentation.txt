@@ -1,0 +1,36 @@
+SafariTech is a Python-based application with a graphical user interface (GUI) that allows
+users to input, save, and display data entries.The application uses tkinter for the GUI 
+and SQLite for database operations.It is designed to store five specific fields of data 
+and display them in a report format.
+
+Prerequisites
+Python 3.x
+tkinter (included with Python)
+SQLite (included with Python)
+VS Code or any other code editor
+
+#Setup
+1. cd SafariTech
+
+#Create and Activate a Virtual Environment
+2. python -m venv venv
+   venv\Scripts\activate
+
+#Set Up the Database
+3. python setup_db.py
+
+#Run the Application
+4.python safaritech.py
+
+#The User Interface:
+Full Name: Enter the full name of the person.
+Email: Enter the email address.
+Phone Number: Enter the phone number.
+Date of Birth: Enter the date of birth in the format YYYY-MM-DD.
+Address: Enter the address.
+Save Entry: Click this button to save the data into the database.
+View Report: Click this button to open a new window displaying all saved entries.
+
+Credits
+Developer: Karabo Maboka
+Special Thanks: Mr Matsobane Mogale
